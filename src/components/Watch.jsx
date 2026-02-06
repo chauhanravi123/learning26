@@ -9,7 +9,7 @@ export const Watch = () => {
 
   return (
     <div style={{textAlign:"center"}}>
-      <h1>WATCHING....{movieName}</h1>
+      <h1>Watching...{movieName}</h1>
     </div>
   );
 };
