@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/css/header.css";
 
 export const Navbar = () => {
   return (
@@ -23,7 +22,7 @@ export const Navbar = () => {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/netflixhome">
                 NEtflix Home
               </Link>
@@ -39,48 +38,69 @@ export const Navbar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/teamdetail">
-                Teams
-              </Link>
-            </li>
-            <li class="nav-item">
               <Link class="nav-link" to="/fundemo1">
                 fundemo1
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/employees">
-                Employees
+              <Link class="nav-link" to="/usestatedemo1">
+                usestatedemo1
               </Link>
             </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/inputdemo1">
-                  inputdemo1
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/inputdemo2">
-                  inputdemo2
-                </Link>
-              </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/usestatedemo2">
+                usestatedemo2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/usestatedemo3">
+                usestatedemo3
+              </Link>
+            </li> */}
+            <li class="nav-item">
+              <Link class="nav-link" to="/employees">
+                employees
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo1">
+                inputdemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/inputdemo2">
+                inputdemo2
+              </Link>
+            </li>
+            
             <li class="nav-item">
               <Link class="nav-link" to="/formdemo1">
-                FormDemo1
+                formdemo1
               </Link>
             </li>
-               <li class="nav-item">
+            <li class="nav-item">
               <Link class="nav-link" to="/formdemo2">
-                FormDemo2
+                formdemo2
               </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/formdemo3">
-              FormDemo3
+                formdemo3
               </Link>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
               <Link class="nav-link" to="/formdemo4">
-              FormDemo4
+                formdemo4
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo5">
+                formdemo5
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo6">
+                formdemo6
               </Link>
             </li>
           </ul>
