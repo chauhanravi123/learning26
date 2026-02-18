@@ -23,6 +23,9 @@ import { FormDemo3 } from "./components/form/FormDemo3";
 import { FormDemo4 } from "./components/form/FormDemo4";
 import { FormDemo5 } from "./components/form/FormDemo5";
 import { FormDemo6 } from "./components/form/FormDemo6";
+import { ApiDemo1 } from "./components/api/ApiDemo1";
+import { ApiDemo2 } from "./components/api/ApiDemo2";
+import { ApiDemo3 } from "./components/api/ApiDemo3";
 function App() {
   return (
     <div>
@@ -43,8 +46,11 @@ function App() {
         <Route path="/formdemo4" element={<FormDemo4 />}></Route>
         <Route path="/formdemo5" element={<FormDemo5 />}></Route>
         <Route path="/formdemo6" element={<FormDemo6 />}></Route>
+        <Route path="/apidemo1" element={<ApiDemo1 />}></Route>
+        <Route path="/apidemo2" element={<ApiDemo2 />}></Route>
         <Route path="/inputdemo1" element={<InputDemo1 />}></Route>
         <Route path="/inputdemo2" element={<InputDemo2 />}></Route>
+        <Route path="/apidemo3" element={<ApiDemo3 />}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
         <Route path="/watch/:name" element = {<Watch/>}></Route>
         <Route path="/teamdetail" element= {<TeamDetail />}></Route>
